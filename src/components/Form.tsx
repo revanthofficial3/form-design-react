@@ -106,12 +106,21 @@ export default class Form extends Component<Props,State>{
                             <h3>State:</h3>
                             <select>
                                 <option value=" "> </option><option value="Tamilnadu">Tamilnadu</option><option value="Kerala">Kerala</option>
+                                <option value="Karnataka">Karnataka</option><option value="Andra Pradesh">Andra Pradesh</option>
+                                <option value="Maharastra">Maharastra</option><option value="Punjab">Punjab</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option><option value="Delhi">Delhi</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option><option value="Rajasthan">Rajasthan</option>
+                        
                             </select>
                         </div>
                         <div className='city'>
                             <h3>City:</h3>
                             <select>
                                 <option value=" "> </option><option value="Chennai">Chennai</option><option value="coimbatore">Coimbatore</option>
+                                <option value="Erode">Erode</option><option value="Bangalore">Bangalore</option>
+                                <option value="Hyderabad">Hyderabad</option><option value="Mumbai">Mumbai</option>
+                                <option value="kochi">kochi</option><option value="mysore">Coimbatore</option>
+                                <option value="Vishakapatnam">Vishakapatnam</option><option value="Pune">Pune</option>
                             </select>
                         </div>
                     </div>
@@ -120,6 +129,10 @@ export default class Form extends Component<Props,State>{
                             <h3>Pincode:</h3>
                             <select>
                                 <option value=" "> </option><option value="600001">600001</option><option value="600002">600002</option>
+                                <option value="500023">500001</option><option value="500044">500002</option>
+                                <option value="400065">400001</option><option value="400055">400002</option>
+                                <option value="700047">700001</option><option value="700075">700002</option>
+                                <option value="300078">300001</option><option value="300023">300002</option>
                             </select>
                     </div>
 
@@ -137,6 +150,9 @@ export default class Form extends Component<Props,State>{
                             <h3>Course:</h3>
                             <select>
                                 <option value=" "> </option><option value="CSE">Computer Operator and Programming Assistant</option><option value="mech">Mechanical Engineering</option>
+                                <option value="Electronic">Electronic Engineering</option><option value="Automobile">Automobile Engineering</option>
+                                <option value="IT">Informayion Technology</option><option value="Civil">Civil Engineering</option>
+                                <option value="MBA">Master of Business Administration</option><option value="Aeronautical">Aeronautical Engineering</option>
                             </select>
                     </div>
 
