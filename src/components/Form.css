@@ -290,5 +290,20 @@ option{
 }
 
 @media screen and (min-width:1200px) {
+    .para{
+        
+    }
+    h1{
+       
+        font-size:1.7rem;
+        
+    }
+    h3{
+        margin:28px 0px 8px 0px;
+        font-size:1.1rem;
+    }
+    #gender-common{
+        margin-top:28px;
+    }
 
 }
