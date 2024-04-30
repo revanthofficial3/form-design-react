@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import image from '../assets/image.png'
 import './Form.css'
 
@@ -9,7 +9,8 @@ interface State{
     name:string,
     fathername:string,
     address:string,
-    email:string
+    email:string,
+    pincode:number
 
 }
 
@@ -20,7 +21,8 @@ export default class Form extends Component<Props,State>{
             name:"",
             address:"",
             fathername:"",
-            email:""
+            email:"",
+            pincode:0
            
         }
     }
@@ -45,7 +47,7 @@ export default class Form extends Component<Props,State>{
 
     handlechange3=(event:any)=>{
         this.setState({
-            // pincode:event.target.value
+            pincode:event.target.value
         })
     }
 
